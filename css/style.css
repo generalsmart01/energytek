@@ -86,6 +86,23 @@
   height: 75px;
 }
 
+.navbar .navbar-brand img {
+  width: 6rem;
+}
+
+.navbar .navbar-brand .break {
+  font-size: 0.87rem;
+  font-weight: 700;
+  color: var(--dark);
+  line-height: 1.2;
+}
+
+.navbar .navbar-brand .break span {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
 .navbar .navbar-nav .nav-link {
   margin-right: 30px;
   padding: 25px 0;
