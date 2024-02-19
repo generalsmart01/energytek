@@ -197,6 +197,12 @@
   background-color: rgba(0, 0, 21, 0.5);
 }
 
+.testimonial > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .owl-carousel .owl-carousel-item img {
   height: 85vh;
 }
@@ -270,8 +276,7 @@
 
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(../img/carousel-1.jpg) center center no-repeat;
-  background-size: cover;
+    url(../img/quote-hero-img.jpg) bottom center no-repeat;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -517,7 +522,7 @@
 }
 
 .testimonial-carousel:hover .owl-nav {
-  width: 300px;
+  width: 500px;
   opacity: 1;
 }
 
@@ -535,27 +540,27 @@
 }
 
 .testimonial-carousel .testimonial-img img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: auto;
 }
 
-.testimonial-carousel .testimonial-img .btn-square {
+/* .testimonial-carousel .testimonial-img .btn-square {
   position: absolute;
   bottom: -19px;
   left: 50%;
   transform: translateX(-50%);
-}
+} */
 
-.testimonial-carousel .owl-item .testimonial-text {
+/* .testimonial-carousel .owl-item .testimonial-text {
   margin-bottom: 30px;
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
   transform: scale(0.8);
   transition: 0.5s;
-}
+} */
 
-.testimonial-carousel .owl-item.center .testimonial-text {
+/* .testimonial-carousel .owl-item.center .testimonial-text {
   transform: scale(1);
-}
+} */
 
 /*** Contact ***/
 @media (min-width: 992px) {
