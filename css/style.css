@@ -159,6 +159,48 @@
 }
 
 /*** Header ***/
+.hero-slide-1 {
+  background: url(/img/hero.jpg);
+}
+
+.hero-slide-2 {
+  background: url(/img/cloud-technology.jpg);
+}
+
+.hero-slide-3 {
+  background: url(/img/it-infrastructure.jpg);
+}
+
+.hero-slide-4 {
+  background: url(/img/printing-management.jpg);
+}
+
+.hero-slide-1,
+.hero-slide-2,
+.hero-slide-3,
+.hero-slide-4 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 18vh);
+  position: relative;
+}
+
+.hero-slide-1::after,
+.hero-slide-2::after,
+.hero-slide-3::after,
+.hero-slide-4::after {
+  content: "";
+  inset: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 21, 0.5);
+}
+
+.owl-carousel .owl-carousel-item img {
+  height: 85vh;
+}
+
 .owl-carousel-inner {
   position: absolute;
   width: 100%;
